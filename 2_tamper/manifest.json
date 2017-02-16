@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "915 Chrome Extension",
+  "description": "This is a demo extension for COMP915",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["tamper.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

@@ -1,0 +1,1 @@
+document.getElementById('day').innerText = 'Any day'
