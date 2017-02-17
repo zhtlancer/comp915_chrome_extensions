@@ -4,9 +4,9 @@
 // })
 chrome.runtime.getBackgroundPage(function(bgPage) {
   bgPage.getPageInfo(function(info) {
-    document.write("<b>Title:</b> " + info.title + "<br>")
-    document.write("<b>URL:</b> " + info.url + "<br>")
-    document.write("<b>User ID:</b> " + info.user + "<br>")
-    document.write("<b>Password:</b> " + info.pass + "<br>")
+    document.getElementById('title').innerText = info.title
+    document.getElementById('url').innerText = info.url
+    document.getElementById('user').innerText = info.user
+    document.getElementById('pass').innerText = info.pass
   })
 })
