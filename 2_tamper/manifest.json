@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
+      "matches": ["*://*/*"],
       "js": ["tamper.js"]
     }
   ],

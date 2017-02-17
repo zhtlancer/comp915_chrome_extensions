@@ -1,1 +1,1 @@
-document.getElementById('day').innerText = 'Any day'
+document.getElementById('day').innerText = 'Holiday'
